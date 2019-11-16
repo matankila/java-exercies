@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>Iots</servlet-name>
+        <servlet-class>Iots</servlet-class>
+
+        <init-param>
+            <param-name>conn</param-name>
+            <param-value>jdbc:mysql://localhost/Computer_Firm</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>pass</param-name>
+            <param-value>1q2w3e4r</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>user</param-name>
+            <param-value>matan</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Iots</servlet-name>
+        <url-pattern>/Iots</url-pattern>
+    </servlet-mapping>
+</web-app>

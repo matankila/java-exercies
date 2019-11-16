@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBCExercise.iml" filepath="$PROJECT_DIR$/JDBCExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LogMonitor/LogMonitor.iml" filepath="$PROJECT_DIR$/../LogMonitor/LogMonitor.iml" />
+    </modules>
+  </component>
+</project>

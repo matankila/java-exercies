@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BashFile">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../BashFile" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../BashFile/src" />
+    </SOURCES>
+  </library>
+</component>
